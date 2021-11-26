@@ -1,0 +1,551 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Roboto+Mono&display=swap");
+html {
+  font-size: 5px;
+}
+
+#cheeks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffcce0), to(#ABB2FF));
+  background: linear-gradient(#ffcce0, #ABB2FF);
+  background-repeat: no-repeat;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+p {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5rem;
+  -webkit-animation-name: text;
+          animation-name: text;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+#header {
+  top: 80px;
+  width: 570px;
+  display: block;
+  margin-left: 100px;
+  position: absolute;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11rem;
+  color: #000000;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  -webkit-animation-name: text;
+          animation-name: text;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 6rem;
+  color: #000000;
+  -webkit-animation-name: text;
+          animation-name: text;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+#bottom {
+  border-bottom: 5px #000000 solid;
+  border-radius: 2px;
+  padding-bottom: 20px;
+}
+
+#paraTop {
+  margin-top: 20px;
+}
+
+@-webkit-keyframes text {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes text {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*KIRBY @icantfindmyspider GitHub*/
+.container {
+  font-size: 5px;
+  margin-left: 700px;
+  width: 600px;
+  background-color: #ffffff;
+  height: 600px;
+  margin-top: 40px;
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 30px 30px 1px #e2e2e2;
+          box-shadow: 30px 30px 1px #e2e2e2;
+}
+
+.body {
+  width: 330px;
+  height: 330px;
+  margin-top: 110px;
+  border-radius: 50%;
+  background: #ffa6c9;
+  -webkit-box-shadow: 1px 1px 5px 7px rgba(255, 166, 201, 0.4);
+          box-shadow: 1px 1px 5px 7px rgba(255, 166, 201, 0.4);
+  z-index: 1;
+}
+
+.left-arm {
+  width: 110px;
+  height: 210px;
+  border-radius: 2em;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  margin-left: 300px;
+  margin-top: 190px;
+  position: absolute;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 50px;
+  background: #ffa6c9;
+  -webkit-box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.25);
+          box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.25);
+  z-index: 0;
+}
+
+.right-arm {
+  width: 105px;
+  height: 220px;
+  border-radius: 2em;
+  -webkit-transform: rotate(-240deg);
+          transform: rotate(-240deg);
+  margin-right: 290px;
+  margin-top: 200px;
+  position: absolute;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 100px;
+  background: #ffa6c9;
+  z-index: 0;
+  -webkit-animation-name: kirby-wave;
+          animation-name: kirby-wave;
+  -webkit-animation-duration: .8s;
+          animation-duration: .8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-box-shadow: 5px 5px 10px rgba(30, 30, 10, 0.2);
+          box-shadow: 5px 5px 10px rgba(30, 30, 10, 0.2);
+}
+
+@-webkit-keyframes kirby-wave {
+  0% {
+    top: 10vh;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 10vh;
+  }
+}
+
+@keyframes kirby-wave {
+  0% {
+    top: 10vh;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 10vh;
+  }
+}
+
+.left-leg {
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  background: #ff4747;
+  z-index: 0;
+  margin-top: 400px;
+  margin-bottom: 400px;
+  margin-right: 110px;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 50px;
+  -webkit-box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.55);
+          box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.55);
+}
+
+.right-leg {
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  background: #ff4747;
+  z-index: 0;
+  margin-top: 400px;
+  margin-bottom: 400px;
+  margin-left: 170px;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 75px;
+  -webkit-box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.55);
+          box-shadow: 0px 10px 29px -5px rgba(30, 30, 10, 0.55);
+}
+
+.left-eye {
+  width: 45px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  margin-top: 50px;
+  margin-right: 105px;
+}
+
+.right-eye {
+  width: 45px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  margin-top: 50px;
+  margin-left: 105px;
+}
+
+.eyes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eyeShine {
+  width: 25px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 5px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 0px 5px 4px #282881;
+          box-shadow: 0px 0px 5px 4px #282881;
+}
+
+.blueBottom {
+  width: 23px;
+  height: 35px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00008b), color-stop(#3232a2), to(#5a5ab4));
+  background: linear-gradient(#00008b, #3232a2, #5a5ab4);
+  margin-left: 10.9px;
+  margin-top: 16px;
+  position: absolute;
+}
+
+.mouth {
+  width: 42px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13% 13% 50% 50%;
+  background: #d80a3e;
+}
+
+.tongue {
+  width: 20px;
+  height: 8px;
+  margin-left: 11.2px;
+  margin-top: 23px;
+  position: absolute;
+  background: #ac0831;
+  border-radius: 13% 13% 50% 50%;
+}
+
+.right-cheek {
+  display: inline;
+  width: 50px;
+  height: 35px;
+  margin-right: 50px;
+  border-radius: 50%;
+  background: #ff8dba;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+  -webkit-box-shadow: 1px 1px 5px 10px #ff8dba;
+          box-shadow: 1px 1px 5px 10px #ff8dba;
+}
+
+.left-cheek {
+  margin-left: 50px;
+  display: inline;
+  width: 50px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ff8dba;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-box-shadow: 1px 1px 5px 10px #ff8dba;
+          box-shadow: 1px 1px 5px 10px #ff8dba;
+}
+
+.heart {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #ffa6f6;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  margin-left: 1160px;
+  margin-top: -290px;
+  -webkit-box-shadow: -1px -1px 5px 3px rgba(255, 166, 246, 0.3);
+          box-shadow: -1px -1px 5px 3px rgba(255, 166, 246, 0.3);
+  z-index: 9;
+  -webkit-animation-name: beat;
+          animation-name: beat;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffa6f6;
+  margin-top: 35px;
+  -webkit-box-shadow: 3px 3px 5px 5px rgba(255, 166, 246, 0.3);
+          box-shadow: 3px 3px 5px 5px rgba(255, 166, 246, 0.3);
+}
+
+.heart::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffa6f6;
+  margin-left: 35px;
+  -webkit-box-shadow: 3px 3px 5px 5px rgba(255, 166, 246, 0.3);
+          box-shadow: 3px 3px 5px 5px rgba(255, 166, 246, 0.3);
+}
+
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(1) rotate(225deg);
+            transform: scale(1) rotate(225deg);
+    /* Rotate because I set the degrees of the shape to 225 */
+  }
+  50% {
+    -webkit-transform: scale(0.7) rotate(225deg);
+            transform: scale(0.7) rotate(225deg);
+  }
+}
+
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(1) rotate(225deg);
+            transform: scale(1) rotate(225deg);
+    /* Rotate because I set the degrees of the shape to 225 */
+  }
+  50% {
+    -webkit-transform: scale(0.7) rotate(225deg);
+            transform: scale(0.7) rotate(225deg);
+  }
+}
+
+#kirbyText {
+  position: absolute;
+  z-index: 5;
+  margin-top: -60px;
+  font-size: 120px;
+  color: #ffa6c9;
+  font-family: 'Comforter', cursive;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170em;
+  }
+  .right-arm {
+    margin-top: 220em;
+  }
+  .left-arm {
+    margin-left: 64em;
+  }
+  .left-leg {
+    margin-right: 20em;
+  }
+  .right-leg {
+    margin-left: 36em;
+  }
+  .heart {
+    margin-left: 160em;
+  }
+  h1 {
+    font-size: 15em;
+  }
+  h2 {
+    font-size: 9em;
+  }
+  p {
+    font-size: 5.8em;
+  }
+  #header {
+    width: 160em;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+  .body {
+    width: 275px;
+    height: 275px;
+  }
+  .right-leg {
+    width: 83px;
+    height: 92px;
+  }
+  .left-leg {
+    width: 83px;
+    height: 92px;
+    margin-left: 270px;
+  }
+  .right-arm {
+    width: 87px;
+    height: 192px;
+    margin-right: 220px;
+    margin-top: 320px;
+  }
+  .left-arm {
+    width: 92px;
+    height: 172px;
+    margin-left: 270px;
+  }
+  .left-cheek {
+    width: 41px;
+    height: 29px;
+  }
+  .right-cheek {
+    width: 41px;
+    height: 29px;
+  }
+  .mouth {
+    width: 35px;
+    height: 27px;
+  }
+  .left-eye {
+    width: 37px;
+    height: 83px;
+  }
+  .right-eye {
+    width: 37px;
+    height: 83px;
+  }
+  .eyeShine {
+    width: 20px;
+    height: 44px;
+  }
+  .blueBottom {
+    width: 20px;
+    height: 30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
