@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Roboto+Mono&display=swap");
-body {
+body, html {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffcce0), to(#ABB2FF));
   background: linear-gradient(#ffcce0, #ABB2FF);
   background-repeat: no-repeat;
