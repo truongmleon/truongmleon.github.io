@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+#paraBottom {
+  border-bottom: 3px solid;
+  padding-bottom: 40px;
+}
+
+#projectHeader {
+  font-size: 12em;
+  width: 870px;
+  font-family: 'Cedarville Cursive', cursive;
+  border-bottom: 3px solid;
+}
+
+.desc {
+  font-family: "Source Code Pro", monospace;
+  font-size: 6em;
+  margin-top: 10px;
+}
+
+.title {
+  width: 570px;
+  font-size: 8em;
+  margin-top: 40px;
+  font-family: "Source Code Pro", monospace;
+  padding: .5em .5em .5em 0em;
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+}
+
+.view {
+  font-family: "Source Code Pro", monospace;
+  width: 300px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  background-color: #fff2fc;
+  border-radius: 90px;
+  -webkit-box-shadow: 0 8px 20px 5px #e9b1c1;
+          box-shadow: 0 8px 20px 5px #e9b1c1;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.view:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  background-color: #ffffff;
+}
+
+.view:focus {
+  outline: none;
+}
+
+#quoteMachine {
+  margin-top: 80px;
+}
+
+#drumMachine {
+  margin-top: 100px;
+}
+
+#heatMap {
+  margin-top: 100px;
+}
+
+@media (max-width: 1350px) {
+  #projectHeader {
+    margin-top: 900px;
+  }
+  .title {
+    width: 450px;
+    font-size: 7em;
+  }
+  .desc {
+    width: 450px;
+    font-size: 6em;
+  }
+  .view {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=project.css.map */
