@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Source+Code+Pro:wght@500&display=swap');
+
+$font: 'Raleway', sans-serif;
+
+#quote-box {
+    width: 580px;
+    margin-left: 650px;
+    margin-top: -250px;
+    height: 410px;
+    background-color: #F3F6FB;
+    box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
+    animation-name: blue;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#author, #text {
+    padding: 29.5px;
+    font-family: $font;
+    font-size: 20.5px;
+    color: #002ac0;
+    animation-name: fade1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#tweet-quote {
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: black;
+    margin-top: 165px;
+    border: 1px solid #F3F6FB;
+    background-color: #F3F6FB;
+    border-radius: 3px;
+    padding: 10px 10px 6px 10px;
+    box-shadow: 8px 8px 10px 6px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+#allText {
+    height: 160px;
+}
+
+#new-quote {
+    width: 200px;
+    position: absolute;
+    font-family: $font;
+    margin-left: 300px;
+    font-size: 24px;
+    margin-top: 80px;
+    border: 1px solid #F3F6FB;
+    background-color: #F3F6FB;
+    border-radius: 45px;
+    padding: 15px;
+    box-shadow: 8px 8px 10px 6px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+#new-quote:hover {
+    background-color: #e4cbfe;
+    box-shadow: 3px 3px 5px #ddbffc;
+    border: #d3a8fe;
+    transform: translateY(-11px);
+}
+
+#tweet-quote:hover {
+    background-color: #e4cbfe;
+    box-shadow: 2px 2px 5px #ddbffc;
+    border: #d3a8fe;
+    transform: translateY(-5px);
+}
+
+@keyframes fade1 {
+    20% {
+        color: #4f5df5;
+    }
+    40% {
+        color: #002ac0;
+    }
+    100% {
+        color: #4954cc;
+    }
+}
+
+@media (max-width: 1350px) {
+    #quote-box {
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #quote-box {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 760px) {
+    #quote-box {
+        width: 480px;
+        height: 310px;
+    }
+
+    #author, #text {
+        font-size: 15px;
+    }
+
+    #new-quote {
+        font-size: 17px;
+        margin-top: 60px;
+        width: 120px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #tweet-quote {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        padding: 2px 2px 2px 2px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    #quote-box {
+        width: 420px;
+        height: 260px;
+    }
+
+    #author, #text {
+        font-size: 12px;
+    }
+
+    #new-quote {
+        margin-left: 270px;
+        margin-top: 10px;
+    }
+
+    #tweet-quote {
+        width: 40px;
+        height: 40px;
+        padding: 2px 2px 2px 2px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 530px) {
+    #quote-box {
+        width: 330px;
+        height: 200px;
+    }
+
+    #author, #text {
+        font-size: 10px;
+        padding: 20px 25px 10px 25px;
+    }
+
+    #new-quote {
+        margin-left: 200px;
+        margin-top: 20px;
+        width: 90px;
+        height: 15px;
+        padding: 5px 5px 25px 5px;
+        font-size: 12px;
+    }
+
+    #tweet-quote {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding: 2px 2px 2px 2px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    #allText {
+        height: 120px;
+    }
+}
+
+@media (max-width: 410px) {
+    #quote-box {
+        width: 300px;
+        height: 200px;
+    }
+
+    #new-quote {
+        margin-left: 170px;
+    }
+
+    #tweet-quote {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+}
