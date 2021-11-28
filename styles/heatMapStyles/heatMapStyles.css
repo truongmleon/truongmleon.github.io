@@ -1,0 +1,123 @@
+/*
+const colors = [ lightest to darkest
+    ['#f7fbff'],
+    ['#deebf7'],
+    ['#c6dbef'],
+    ['#9ecae1'],
+    ['#6baed6'],
+    ['#4292c6'],
+    ['#2171b5'],
+    ['#08519c'],
+    ['#08306b'],
+];
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:ital@1&display=swap");
+text {
+  font-family: "Lato", sans-serif;
+}
+
+#monthLabel {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+}
+
+svg {
+  margin-top: 2550px;
+  margin-left: 750px;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
+          box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
+}
+
+.lowest {
+  fill: #f7fbff;
+}
+
+.slightlyLower {
+  fill: #deebf7;
+}
+
+.lower {
+  fill: #c6dbef;
+}
+
+.low {
+  fill: #9ecae1;
+}
+
+.lowHigh {
+  fill: #6baed6;
+}
+
+.high {
+  fill: #4292c6;
+}
+
+.higher {
+  fill: #2171b5;
+}
+
+.slightlyHigher {
+  fill: #08519c;
+}
+
+.highest {
+  fill: #08306b;
+}
+
+.cell:hover {
+  fill: #f1f1f1;
+}
+
+@media (max-width: 1350px) {
+  svg {
+    margin-left: 610px;
+    margin-top: 2450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  svg {
+    margin-left: 100px;
+    margin-top: 3540px;
+  }
+}
+
+@media (max-width: 960px) {
+  svg {
+    margin-top: 3680px;
+  }
+}
+
+@media (max-width: 760px) {
+  svg {
+    margin-top: 3400px;
+  }
+}
+
+@media (max-width: 640px) {
+  svg {
+    margin-top: 2770px;
+  }
+}
+
+@media (max-width: 530px) {
+  svg {
+    margin-top: 2290px;
+  }
+}
+
+@media (max-width: 480px) {
+  svg {
+    margin-left: 50px;
+    margin-top: 2330px;
+  }
+}
+
+@media (max-width: 410px) {
+  svg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=heatMapStyles.css.map */
