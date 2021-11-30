@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+#paraBottom {
+  border-bottom: 3px solid;
+  padding-bottom: 40px;
+}
+
+#projectHeader {
+  font-size: 12em;
+  width: 870px;
+  font-family: 'Cedarville Cursive', cursive;
+  border-bottom: 3px solid;
+}
+
+.desc {
+  font-family: "Source Code Pro", monospace;
+  font-size: 6em;
+  margin-top: 10px;
+}
+
+.title {
+  width: 570px;
+  font-size: 8em;
+  margin-top: 40px;
+  font-family: "Source Code Pro", monospace;
+  padding: .5em .5em .5em 0em;
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+}
+
+.view {
+  font-family: "Source Code Pro", monospace;
+  width: 300px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  background-color: #fff2fc;
+  border-radius: 90px;
+  -webkit-box-shadow: 0 0px 10px #e9b1c1;
+          box-shadow: 0 0px 10px #e9b1c1;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.view:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  background-color: #ffffff;
+}
+
+.view:focus {
+  outline: none;
+}
+
+#quoteMachine {
+  margin-top: 80px;
+}
+
+#drumMachine {
+  margin-top: 100px;
+}
+
+#heatMap {
+  margin-top: 100px;
+}
+
+@media (max-width: 1350px) {
+  #projectHeader {
+    margin-top: 900px;
+  }
+  .title {
+    width: 450px;
+    font-size: 7em;
+  }
+  .desc {
+    width: 450px;
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 1200px) {
+  #projectHeader {
+    margin-top: 800px;
+    width: 650px;
+  }
+  .title {
+    width: 600px;
+  }
+  #quoteMachine {
+    margin-top: 60px;
+  }
+  #drumMachine {
+    margin-top: 80px;
+  }
+  #heatMap {
+    margin-top: 80px;
+  }
+  .view {
+    width: 250px;
+    height: 75px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 960px) {
+  #projectHeader {
+    margin-top: 800px;
+  }
+}
+
+@media (max-width: 760px) {
+  #projectHeader {
+    width: 500px;
+    font-size: 10em;
+  }
+  .title {
+    width: 450px;
+    font-size: 6em;
+  }
+  .view {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  #projectHeader {
+    width: 400px;
+    margin-top: 400px;
+  }
+  .title {
+    width: 350px;
+    font-size: 5.5em;
+  }
+  .desc {
+    width: 350px;
+    font-size: 4.2em;
+  }
+  #drumMachine {
+    margin-top: 60px;
+  }
+  #heatMap {
+    margin-top: 60px;
+  }
+  .view {
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 530px) {
+  #projectHeader {
+    width: 280px;
+    font-size: 8em;
+  }
+  .title {
+    width: 250px;
+    font-size: 4em;
+  }
+  .desc {
+    font-size: 3.2em;
+    width: 250px;
+  }
+  .view {
+    height: 30px;
+    width: 140px;
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=project.css.map */
