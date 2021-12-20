@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+$font: 'Josefin Sans', sans-serif;
+$font2: 'Courgette', cursive;
+$white: #fafafa;
+$black: #000;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 18em;
+    border: 10px solid $white;
+    background-color: $white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav, .drop, #name {
+    text-decoration: none;
+    color: $black;
+    font-size: 6vw;
+    font-family: $font;
+}
+
+#name {
+    font-family: $font2;
+    font-size: 3vw;
+    color: $black;
+}
+
+.drop {
+    display: block;
+    font-size: 2vw;
+    color: #2c2f33;
+}
+
+.nav {
+    position: absolute;
+    margin-top: -20px;
+    border: 1px $white;
+    background-color: $white;
+    font-size: 7em;
+    transition: 0.5s;
+}
+
+.nav:hover {
+    border-bottom: 1px solid;
+}
+
+@media (max-width: 1250px) {
+    #name {
+        font-size: 4vw
+    }
+
+    .nav {
+        font-size: 6em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        font-size: 5.5em;
+    }
+}
+
+@media (max-width: 940px) {
+    #main {
+        height: 15.8em;
+    }
+    
+    nav .nav { 
+        display: none; 
+    }
+
+    #name {
+        font-size: 5.5vw;
+    }
+
+    #menu ul li a {
+        font-size: 4vw;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #name {
+        font-size: 6.5vw;
+    }
+
+    #menu ul li a {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #name {
+        font-size: 6.7vw;
+    }
+
+    #menu ul li a {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 400px) {
+    #name {
+        font-size: 6.5vw;
+    }
+}
+
+@media (max-width: 300px) {
+    #dropBtn {
+        font-size: 28px !important;
+    }
+    
+    #name {
+        font-size: 7vw;
+    }
+}
+
+#dropNav {
+    list-style-type: none;
+    background: #fafafa;
+    padding: 30px 20px 30px 20px;
+    border-radius: 1px;
+    
+}
+
+.dropBlock {
+    display: block !important;
+    animation-name: fade;
+    animation-duration: 0.4s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.dropdownMenu {
+    z-index: 10;
+    display: none;
+    position: absolute;
+    right: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#dropBtn {
+    border-radius: 8px;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#dropBtn:hover {
+    transform: translateY(-7px);
+    box-shadow: 1px 1px 1px 1px rgb(245, 234, 254);
+}
+
+#dropBtn:focus {
+    outline: none;
+}
+
+#footer {
+    position: relative;
+    height: 100px;
+    font-size: 30px;
+    width: 100%;
+    background-color: #23272a;
+    color: rgb(255, 255, 255);
+    top: 3200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+.list {
+    list-style: circle;
+}
+
+@media (max-width: 1400px) {
+    #footer {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #footer {
+        top: 4200px;
+        height: 200px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 870px) {
+    #footer {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 760px) {
+    #footer {
+        font-size: 24px;
+        top: 4050px;
+    }
+}
+
+@media (max-width: 640px) {
+    #footer {
+        top: 3400px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+    #footer {
+        font-size: 18px;
+        top: 3200px;
+    }
+}
+
+@media (max-width: 530px) {
+    #footer {
+        top: 2800px;
+    }
+}
+
+@media (max-width: 495px) {
+    #footer {
+        top: 2800px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    #footer {
+        font-size: 12px;
+        top: 2700px;
+    }
+}
