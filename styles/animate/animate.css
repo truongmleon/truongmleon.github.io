@@ -99,12 +99,8 @@ body {
   margin-left: 200px;
 }
 
-svg {
-  position: absolute;
-}
-
-#GitHubIcon, #TwitterIcon {
-  margin-left: 1250px;
+#GitHubIcon, #TwitterIcon, #CodePenIcon {
+  margin-left: 1170px;
   margin-top: 350px;
   position: absolute;
   width: 190px;
@@ -123,8 +119,13 @@ svg {
 }
 
 #TwitterIcon {
-  margin-left: 1430px;
+  margin-left: 1344px;
   margin-top: 450px;
+}
+
+#CodePenIcon {
+  margin-top: 550px;
+  margin-left: 1520px;
 }
 
 div a span {
@@ -153,6 +154,14 @@ div a span {
 
 #TwitterIcon span:hover {
   background-color: #8db0fc !important;
+}
+
+#CodePenIcon span {
+  background-color: #fcc6ee;
+}
+
+#CodePenIcon span:hover {
+  background-color: #ffa1e6;
 }
 
 #GitHubIcon span:hover {
@@ -265,7 +274,7 @@ div a span:nth-child(1) {
   -webkit-filter: hue-rotate(48.39deg);
           filter: hue-rotate(48.39deg);
   margin-left: 1200px;
-  margin-top: 320px;
+  margin-top: 220px;
 }
 
 #colorPads div:nth-child(2) {
@@ -284,7 +293,7 @@ div a span:nth-child(1) {
   width: 160px;
   height: 160px;
   margin-left: 1350px;
-  margin-top: 550px;
+  margin-top: 500px;
   -webkit-transform: rotate(30deg) skew(-28deg);
           transform: rotate(30deg) skew(-28deg);
   background: linear-gradient(45deg, #9caffc, #d1bdf9);
@@ -294,9 +303,9 @@ div a span:nth-child(1) {
 
 #colorPads div:nth-child(4) {
   position: absolute;
-  width: 140px;
-  height: 140px;
-  margin-left: 1600px;
+  width: 180px;
+  height: 180px;
+  margin-left: 1550px;
   margin-top: 580px;
   -webkit-transform: rotate(10deg) skew(-28deg);
           transform: rotate(10deg) skew(-28deg);
@@ -314,5 +323,60 @@ div a span:nth-child(1) {
   -webkit-transform: rotate(10deg) skew(28deg);
           transform: rotate(10deg) skew(28deg);
   background: linear-gradient(45deg, #beecfd, #bbffd4);
+}
+
+#colorPads div:nth-child(6) {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin-left: 1200px;
+  margin-top: 650px;
+  -webkit-transform: rotate(10deg) skew(48deg);
+          transform: rotate(10deg) skew(48deg);
+  background: linear-gradient(45deg, #bed4fd, #bbfdff);
+}
+
+#colorPads div:nth-child(7) {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin-left: 1400px;
+  margin-top: 750px;
+  -webkit-transform: rotate(10deg) skew(-18deg);
+          transform: rotate(10deg) skew(-18deg);
+  background: linear-gradient(45deg, #befdfa, #c1ffbb);
+}
+
+#colorPads div:nth-child(8) {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  margin-left: 1050px;
+  margin-top: 750px;
+  -webkit-transform: rotate(60deg) skew(18deg);
+          transform: rotate(60deg) skew(18deg);
+  background: linear-gradient(45deg, #fdbef6, #ffbbbb);
+}
+
+#colorPads div:nth-child(9) {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  margin-left: 1600px;
+  margin-top: 800px;
+  -webkit-transform: rotate(20deg) skew(18deg);
+          transform: rotate(20deg) skew(18deg);
+  background: linear-gradient(45deg, #fdbebe, #ffe4bb);
+}
+
+#colorPads div:nth-child(10) {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  margin-left: 1300px;
+  margin-top: 900px;
+  -webkit-transform: rotate(20deg) skew(-48deg);
+          transform: rotate(20deg) skew(-48deg);
+  background: linear-gradient(45deg, #fcbefd, #ffbbbb);
 }
 /*# sourceMappingURL=animate.css.map */

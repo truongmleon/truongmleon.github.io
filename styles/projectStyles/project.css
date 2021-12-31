@@ -67,12 +67,18 @@
   margin-top: 50px;
 }
 
-#quoteMachine, #drumMachine, #heatMap {
+#quoteMachine, #drumMachine, #heatMap, #choroplethMapContainer, #ticTac {
   margin-top: 200px;
 }
 
 #choroplethMap {
+  position: absolute;
   width: 100%;
+  pointer-events: none;
+  margin-left: 660px;
+  top: 60px;
+  -webkit-box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
+          box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
 }
 
 @media (max-width: 1350px) {

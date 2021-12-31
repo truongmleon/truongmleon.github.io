@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/indexStyles/index.css">
     <link rel="stylesheet" href="styles/mainStyleSheet/styles.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="styles/quoteStyles/quoteStyles.css">
     <link rel="stylesheet" href="styles/drumStyles/drumStyles.css">
     <link rel="stylesheet" href="styles/heatMapStyles/heatMapStyles.css">
+    <link rel="stylesheet" href="styles/TicTacToeStyles/TicTacToe.css">
     <link rel="stylesheet" href="styles/animate/animate.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -129,6 +131,13 @@
                   <span class='layer'></span>
                   <span class="bi bi-twitter"></span>
                 </a>
+                <a id='CodePenIcon' data-aos="fade-up" href="https://codepen.io/LeonTrii" target="_blank">
+                  <span class='layer'></span>
+                  <span class='layer'></span>
+                  <span class='layer'></span>
+                  <span class='layer'></span>
+                  <span><i class="fab fa-codepen"></i></span>
+                </a>
             <div data-aos="zoom-in-right" id="calcContainer">
               <h3 class='title'>Simple Calculator</h3>
               <p class='desc'>A calculator that does simple arithmetic</p>
@@ -203,6 +212,11 @@
           <div data-aos="fade-up"></div>
           <div data-aos="fade-up"></div>
           <div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
+          <div data-aos="fade-up"></div>
         </div>
         <div data-aos="fade-up" id="drumContainer">
           <h3 id='drumMachine' class='title'>Drum Machine</h3>
@@ -245,12 +259,42 @@
               <audio id='audioV' src='https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'></audio>
           </div>
       </div>
-      <div data-aos="fade-down-right" id="mapContainer">
-        <h3 id='heatMap' class='title'>Surface Temperature Heat Map</h3>
+      <div data-aos="fade-down-right" id="heatMap">
+        <h3 class='title'>Surface Temperature Heat Map</h3>
         <p class='desc'>A heat map that shows the global surface temperature from 1753 to 2015: base temperature 8.66°C</p>
         <button data-aos="zoom-in-right" onclick="window.open('https://github.com/LeonTrii/Playground/tree/main/2021/Data-Visualization/Surface-temperature-heat-map','_blank')" class='view'>View Code Here</button>
       </div>
-      <img id='choroplethMap' src="assets/ChoroplethMap.png" alt="A Choropleth Map">
+      <div  data-aos="fade-right" id="choroplethMapContainer">
+        <h3 class='title'>Choropleth Map</h3>
+        <p class='desc'>The U.S. map that shows Educational Attainment in of adults age 25 and older with a bachelor's degree or higher (%)</p>
+        <button data-aos="zoom-in-right" onclick="window.open('https://github.com/LeonTrii/Playground/tree/main/2021/Data-Visualization/Choropleth-Map','_blank')" class='view'>View Code Here</button>
+        <img id='choroplethMap' src="assets/ChoroplethMap.png" alt="A Choropleth Map">
+      </div>
+      <div  data-aos="fade-right" id="ticTac">
+        <h3 class='title'>Tic-Tac-Toe</h3>
+        <p class='desc'>Two-player Tic-Tac-Toe game</p>
+        <button data-aos="zoom-in-right" onclick="window.open('https://github.com/LeonTrii/Playground/tree/main/2021/Tic-Tac-Toe','_blank')" class='view'>View Code Here</button>
+      </div>
+      <div id="TicTacToe">
+        <div id="board" data-aos="fade-up">
+          <button data-aos="flip-left" class="grid" id="oneTTT"></button>
+          <button data-aos="flip-left" class="grid" id="twoTTT"></button>
+          <button data-aos="flip-left" class="grid" id="threeTTT"></button>
+          <button data-aos="flip-left" class="grid" id="fourTTT"></button>
+          <button data-aos="flip-left" class="grid" id="fiveTTT"></button>
+          <button data-aos="flip-left" class="grid" id="sixTTT"></button>
+          <button data-aos="flip-left" class="grid" id="sevenTTT"></button>
+          <button data-aos="flip-left" class="grid" id="eightTTT"></button>
+          <button data-aos="flip-left" class="grid" id="nineTTT"></button>
+      </div>
+      <div data-aos="fade-up-left" id="players">
+          <span id="playerOne">Player One</span>
+          <span id="playerTwo">Player Two</span>
+      </div>
+      <div id="resetting">
+        <button data-aos='zoom-in' id="resetTTT">Reset</button>
+      </div>
+      </div>
       </div>
       <footer id='footer'>
           <address>
@@ -291,4 +335,5 @@
 <script src="JavaScript/scriptCalc.js" defer></script>
 <script src='JavaScript/script.js' defer></script>
 <script src='JavaScript/heatMap.js' defer></script>
+<script src="JavaScript/TicTacToe.js"></script>
 </html>
