@@ -40,6 +40,10 @@
 }
 
 .view {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 300px;
   height: 75px;
@@ -72,6 +76,10 @@
 }
 
 #choroplethMap {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   width: 100%;
   pointer-events: none;

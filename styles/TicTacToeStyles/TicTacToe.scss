@@ -16,6 +16,7 @@
 }
 
 #playerOne, #playerTwo  {
+    user-select: none;
     z-index: 1;
     margin-top: 600px;
     width: 210px;
@@ -51,6 +52,7 @@
     padding-left: 45px;
     padding-right: 45px;
     font-size: 37px;
+    user-select: none;
     transition: .5s;
 }
 
@@ -81,6 +83,7 @@
 }
 
 .grid {
+    user-select: none;
     height: 155px;
     width: 155px;
     border: 12px inset #fffafa;

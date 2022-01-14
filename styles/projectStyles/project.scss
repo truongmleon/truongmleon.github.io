@@ -46,6 +46,7 @@ $black: #000;
 }
 
 .view {
+    user-select: none;
     font-family: $font;
     width: 300px;
     height: 75px;
@@ -75,6 +76,7 @@ $black: #000;
 }
 
 #choroplethMap {
+    user-select: none;
     position: absolute;
     width: 100%;
     pointer-events: none;

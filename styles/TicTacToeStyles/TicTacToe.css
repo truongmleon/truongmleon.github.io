@@ -20,6 +20,10 @@
 }
 
 #playerOne, #playerTwo {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   z-index: 1;
   margin-top: 600px;
   width: 210px;
@@ -67,6 +71,10 @@
   padding-left: 45px;
   padding-right: 45px;
   font-size: 37px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -104,6 +112,10 @@
 }
 
 .grid {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 155px;
   width: 155px;
   border: 12px inset #fffafa;

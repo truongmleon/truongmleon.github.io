@@ -82,6 +82,10 @@ span {
 }
 
 .btn {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: #fefbfa;
   width: 75px;
   height: 75px;

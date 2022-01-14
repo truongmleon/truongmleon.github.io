@@ -26,6 +26,10 @@
 }
 
 .buttons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-size: 60px;
   color: #f2f0f0;
   font-family: 'Montserrat', sans-serif;

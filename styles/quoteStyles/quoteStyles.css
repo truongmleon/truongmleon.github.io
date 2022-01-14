@@ -18,6 +18,10 @@
 }
 
 #author, #text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   padding: 29.5px;
   font-family: "Raleway", sans-serif;
   font-size: 20.5px;

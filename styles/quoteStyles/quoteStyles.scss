@@ -16,6 +16,7 @@ $font: 'Raleway', sans-serif;
 }
 
 #author, #text {
+    user-select: none;
     padding: 29.5px;
     font-family: $font;
     font-size: 20.5px;

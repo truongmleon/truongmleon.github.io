@@ -122,12 +122,12 @@ div a span {
     position: absolute;
     font-size: 22em;
     width: 180px;
-    height: 180px;
+    height: 200px;
     background: #e5ceff;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition: .8s;
 }
 
 #TwitterIcon span {
@@ -173,15 +173,15 @@ div a span:nth-child(1) {
     opacity: .2;
 }
 
-#bubbles {
-    margin-left: 1200px;
-
+#bubbles div {
+    z-index: -1;
+    transition: .8s;
+    position: absolute;
 }
 
 #bubbles div:nth-child(1) {
-    position: absolute;
     margin-top: 200px;
-    margin-left: 80px;
+    margin-left: 1280px;
     width: 150px;
     height: 150px;
     border-radius: 400px;
@@ -189,7 +189,7 @@ div a span:nth-child(1) {
 }
 
 #bubbles div:nth-child(2) {
-    position: absolute;
+    margin-left: 1200px;
     margin-top: 390px;
     width: 230px;
     height: 230px;
@@ -198,8 +198,7 @@ div a span:nth-child(1) {
 }
 
 #bubbles div:nth-child(3) {
-    position: absolute;
-    margin-left: 280px;
+    margin-left: 1480px;
     margin-top: 330px;
     width: 200px;
     height: 200px;
@@ -208,8 +207,7 @@ div a span:nth-child(1) {
 }
 
 #bubbles div:nth-child(4) {
-    position: absolute;
-    margin-left: 100px;
+    margin-left: 1300px;
     margin-top: 650px;
     width: 140px;
     height: 140px;
@@ -218,8 +216,7 @@ div a span:nth-child(1) {
 }
 
 #bubbles div:nth-child(5) {
-    position: absolute;
-    margin-left: 360px;
+    margin-left: 1560px;
     margin-top: 550px;
     width: 180px;
     height: 180px;
@@ -228,8 +225,7 @@ div a span:nth-child(1) {
 }
 
 #bubbles div:nth-child(6) {
-    position: absolute;
-    margin-left: 200px;
+    margin-left: 1400px;
     margin-top: 750px;
     width: 250px;
     height: 250px;
@@ -237,8 +233,13 @@ div a span:nth-child(1) {
     background: linear-gradient(#c5caff, #c0fcfd);
 }
 
-#colorPads div:nth-child(1) {
+#colorPads div {
+    z-index: -1;
+    transition: .8s;
     position: absolute;
+}
+
+#colorPads div:nth-child(1) {
     width: 200px;
     height: 200px;
     transform: rotate(-30deg) skew(-28deg);
@@ -249,7 +250,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(2) {
-    position: absolute;
     width: 160px;
     height: 160px;
     margin-left: 1450px;
@@ -259,7 +259,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(3) {
-    position: absolute;
     width: 160px;
     height: 160px;
     margin-left: 1350px;
@@ -270,7 +269,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(4) {
-    position: absolute;
     width: 180px;
     height: 180px;
     margin-left: 1550px;
@@ -281,7 +279,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(5) {
-    position: absolute;
     width: 130px;
     height: 130px;
     margin-left: 1640px;
@@ -291,7 +288,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(6) {
-    position: absolute;
     width: 130px;
     height: 130px;
     margin-left: 1200px;
@@ -301,7 +297,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(7) {
-    position: absolute;
     width: 130px;
     height: 130px;
     margin-left: 1400px;
@@ -311,7 +306,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(8) {
-    position: absolute;
     width: 160px;
     height: 160px;
     margin-left: 1050px;
@@ -321,7 +315,6 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(9) {
-    position: absolute;
     width: 160px;
     height: 160px;
     margin-left: 1600px;
@@ -331,11 +324,626 @@ div a span:nth-child(1) {
 }
 
 #colorPads div:nth-child(10) {
-    position: absolute;
     width: 190px;
     height: 190px;
     margin-left: 1300px;
     margin-top: 900px;
     transform: rotate(20deg) skew(-48deg);
     background: linear-gradient(45deg, #fcbefd, #ffbbbb);
+}
+
+#rectangles div {
+    position: absolute;
+    transition: .8s;
+}
+
+#rectangles div:nth-child(1) {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: 1060px;
+    background: linear-gradient(45deg, #ebbefd, #bbbfff);
+}
+
+#rectangles div:nth-child(2) {
+    position: absolute;
+    width: 100px;
+    height: 300px;
+    margin-top: 530px;
+    margin-left: 1160px;
+    background: linear-gradient(45deg, #bee9fd, #bbbfff);
+}
+
+#rectangles {
+    z-index: -1 !important;
+}
+
+#rectangles div:nth-child(3) {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 500px;
+    margin-left: 1360px;
+    background: linear-gradient(45deg, #fdbebe, #ffd6bb);
+}
+
+#rectangles div:nth-child(4) {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 780px;
+    margin-left: 1340px;
+    transform: rotate(45deg);
+    background: linear-gradient(45deg, #befdf8da, #d0ffbbe7);
+}
+
+#layers div {
+    position: absolute;
+    transition: .8s;
+}
+
+#layers div:nth-child(1) {
+    z-index: -1;
+    width: 180px;
+    height: 180px;
+    margin-top: 460px;
+    margin-left: 40px;
+    background: linear-gradient(45deg, #c499ff, #e9cbff);
+}
+
+#layers div:nth-child(2) {
+    z-index: -1;
+    width: 180px;
+    height: 180px;
+    margin-top: 740px;
+    margin-left: 210px;
+    background: linear-gradient(45deg, #ff9add, #ffceef);
+    background-color: #ffceef;
+}
+
+#layers div:nth-child(3) {
+    z-index: -1;
+    width: 180px;
+    height: 180px;
+    margin-top: 480px;
+    margin-left: 330px;
+    background: linear-gradient(45deg, #a0bbff, #cedcff);
+}
+
+#blobs div {
+    position: absolute;
+    transition: .8s;
+}
+
+#blobs div:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    margin-top: 590px;
+    margin-left: 1360px;
+    border-radius: 34% 66% 70% 30% / 30% 50% 50% 70%;
+    background: linear-gradient(45deg, #bee9fd, #bbbfff);
+}
+
+#blobs div:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 1560px;
+    border-radius: 79% 21% 59% 41% / 82% 73% 27% 18% ;
+    background: linear-gradient(45deg, #fdbebe, #fbb0ff);
+}
+
+#blobs div:nth-child(3) {
+    width: 230px;
+    height: 230px;
+    margin-top: 200px;
+    margin-left: 1260px;
+    border-radius: 54% 46% 69% 31% / 17% 79% 21% 83%;
+    background: linear-gradient(45deg, #befdc0, #b0d2ff);
+}
+
+#ticSquares div {
+    position: absolute;
+    transition: .8s;
+}
+
+#ticSquares div:nth-child(1) {
+    width: 230px;
+    height: 230px;
+    margin-top: 200px;
+    margin-left: 1260px;
+    background: linear-gradient(45deg, #d4befd, #bbbfff);
+}
+
+#ticSquares div:nth-child(2) {
+    width: 390px;
+    height: 390px;
+    margin-top: 500px;
+    margin-left: 960px;
+    background: linear-gradient(45deg, #9caffc, #d1bdf9);
+    filter: hue-rotate(48.39deg);
+}
+
+#ticSquares div:nth-child(3) {
+    width: 160px;
+    height: 160px;
+    margin-top: 300px;
+    margin-left: 1560px;
+    background: linear-gradient(45deg, #9cd6fc, #e3ffdd);
+    filter: hue-rotate(48.39deg);
+}
+
+#ticSquares div:nth-child(4) {
+    width: 180px;
+    height: 180px;
+    margin-top: 500px;
+    margin-left: 1420px;
+    background: linear-gradient(45deg, #9cd6fc, #e3ffdd);
+}
+
+#ticSquares div:nth-child(5) {
+    width: 200px;
+    height: 200px;
+    margin-top: 740px;
+    margin-left: 1520px;
+    background: linear-gradient(45deg, #ffc7c7, #fcddff);
+}
+
+@media (max-width: 1900px) {
+    #GitHubIcon, #TwitterIcon, #CodePenIcon {
+        margin-left: 1170px;
+        margin-top: 350px;
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    #TwitterIcon {
+        margin-left: 1344px;
+        margin-top: 450px
+    }
+    
+    #CodePenIcon {
+        margin-top: 550px;
+        margin-left: 1520px
+    }
+
+    div a span {
+        font-size: 20em;
+        width: 160px;
+        height: 160px;
+    }
+
+    #layers div:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        margin-top: 460px;
+        margin-left: 40px;
+    }
+    
+    #layers div:nth-child(2) {
+        width: 150px;
+        height: 150px;
+        margin-top: 700px;
+        margin-left: 210px;
+    }
+    
+    #layers div:nth-child(3) {
+        width: 150px;
+        height: 150px;
+        margin-top: 480px;
+        margin-left: 330px;
+    }
+
+    #colorPads div:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        margin-left: 1100px;
+        margin-top: 220px;
+    }
+    
+    #colorPads div:nth-child(2) {
+        width: 160px;
+        height: 160px;
+        margin-left: 1350px;
+        margin-top: 320px;
+    }
+    
+    #colorPads div:nth-child(3) {
+        margin-left: 1200px;
+    }
+    
+    #colorPads div:nth-child(4) {
+        margin-left: 1450px;
+    }
+    
+    #colorPads div:nth-child(5) {
+        margin-left: 1540px;
+    }
+    
+    #colorPads div:nth-child(6) {
+        margin-left: 1120px;
+    }
+    
+    #colorPads div:nth-child(7) {
+        margin-left: 1300px;
+    }
+    
+    #colorPads div:nth-child(8) {
+        margin-left: 950px;
+    }
+    
+    #colorPads div:nth-child(9) {
+        margin-left: 1500px;
+    }
+    
+    #colorPads div:nth-child(10) {
+        margin-left: 1200px;
+    }
+
+    #bubbles div:nth-child(1) {
+        margin-left: 1200px;
+    }
+    
+    #bubbles div:nth-child(2) {
+        margin-left: 1120px;
+    }
+    
+    #bubbles div:nth-child(3) {
+        margin-left: 1400px;
+    }
+    
+    #bubbles div:nth-child(4) {
+        margin-left: 1220px;
+    }
+    
+    #bubbles div:nth-child(5) {
+        margin-left: 1480px;
+    }
+    
+    #bubbles div:nth-child(6) {
+        margin-left: 1320px;
+    }
+
+    #rectangles div:nth-child(1) {
+        z-index: -1;
+        margin-left: 980px;
+    }
+    
+    #rectangles div:nth-child(2) {
+        z-index: -1;
+        margin-left: 1080px;
+    }
+    
+    #rectangles div:nth-child(3) {
+        z-index: -1;
+        margin-left: 1280px;
+    }
+    
+    #rectangles div:nth-child(4) {
+        z-index: -1;
+        margin-left: 1260px;
+    }
+
+    #blobs div:nth-child(1) {
+        margin-left: 1280px;
+    }
+    
+    #blobs div:nth-child(2) {
+        margin-left: 1480px;
+    }
+    
+    #blobs div:nth-child(3) {
+        margin-left: 1180px;
+    }
+
+    #ticSquares div:nth-child(1) {
+        margin-left: 1180px;
+    }
+    
+    #ticSquares div:nth-child(2) {
+        margin-left: 880px;
+    }
+    
+    #ticSquares div:nth-child(3) {
+        margin-left: 1480px;
+    }
+    
+    #ticSquares div:nth-child(4) {
+        margin-left: 1360px;
+    }
+    
+    #ticSquares div:nth-child(5) {
+        margin-left: 1460px;
+    }
+}
+
+@media (max-width: 1840px) {
+    #GitHubIcon, #TwitterIcon, #CodePenIcon {
+        margin-left: 1170px;
+        margin-top: 350px;
+    }
+
+    #TwitterIcon {
+        margin-left: 1300px;
+        margin-top: 430px
+    }
+    
+    #CodePenIcon {
+        margin-top: 510px;
+        margin-left: 1430px
+    }
+
+    div a span {
+        font-size: 16em;
+        width: 130px;
+        height: 130px;
+    }
+
+    #colorPads div:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        margin-left: 1020px;
+        margin-top: 220px;
+    }
+    
+    #colorPads div:nth-child(2) {
+        width: 160px;
+        height: 160px;
+        margin-left: 1270px;
+        margin-top: 320px;
+    }
+    
+    #colorPads div:nth-child(3) {
+        margin-left: 1020px;
+    }
+    
+    #colorPads div:nth-child(4) {
+        margin-left: 1370px;
+    }
+    
+    #colorPads div:nth-child(5) {
+        margin-left: 1460px;
+    }
+    
+    #colorPads div:nth-child(6) {
+        margin-left: 1040px;
+    }
+    
+    #colorPads div:nth-child(7) {
+        margin-left: 1220px;
+    }
+    
+    #colorPads div:nth-child(8) {
+        margin-left: 870px;
+    }
+    
+    #colorPads div:nth-child(9) {
+        margin-left: 1420px;
+    }
+    
+    #colorPads div:nth-child(10) {
+        margin-left: 1120px;
+    }
+
+    #bubbles div:nth-child(1) {
+        margin-left: 1120px;
+    }
+    
+    #bubbles div:nth-child(2) {
+        margin-left: 1040px;
+    }
+    
+    #bubbles div:nth-child(3) {
+        margin-left: 1320px;
+    }
+    
+    #bubbles div:nth-child(4) {
+        margin-left: 1160px;
+    }
+    
+    #bubbles div:nth-child(5) {
+        margin-left: 1400px;
+    }
+    
+    #bubbles div:nth-child(6) {
+        margin-left: 1240px;
+    }
+
+    #rectangles div:nth-child(1) {
+        z-index: -1;
+        margin-left: 900px;
+    }
+    
+    #rectangles div:nth-child(2) {
+        z-index: -1;
+        margin-left: 1000px;
+    }
+    
+    #rectangles div:nth-child(3) {
+        z-index: -1;
+        margin-left: 1200px;
+    }
+    
+    #rectangles div:nth-child(4) {
+        z-index: -1;
+        margin-left: 1180px;
+    }
+
+    #blobs div:nth-child(1) {
+        margin-left: 1200px;
+    }
+    
+    #blobs div:nth-child(2) {
+        margin-left: 1400px;
+    }
+    
+    #blobs div:nth-child(3) {
+        margin-left: 1100px;
+    }
+
+    #ticSquares div:nth-child(1) {
+        margin-left: 1100px;
+    }
+    
+    #ticSquares div:nth-child(2) {
+        margin-left: 800px;
+    }
+    
+    #ticSquares div:nth-child(3) {
+        margin-left: 1400px;
+    }
+    
+    #ticSquares div:nth-child(4) {
+        margin-left: 1280px;
+    }
+    
+    #ticSquares div:nth-child(5) {
+        margin-left: 1380px;
+    }
+}
+
+@media (max-width: 1760px) {
+    #GitHubIcon, #TwitterIcon, #CodePenIcon {
+        margin-left: 1170px;
+        margin-top: 350px;
+    }
+
+    #TwitterIcon {
+        margin-left: 1300px;
+        margin-top: 430px
+    }
+    
+    #CodePenIcon {
+        margin-top: 510px;
+        margin-left: 1430px
+    }
+
+    div a span {
+        font-size: 16em;
+        width: 130px;
+        height: 130px;
+    }
+
+    #colorPads div:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        margin-left: 1020px;
+        margin-top: 220px;
+    }
+    
+    #colorPads div:nth-child(2) {
+        width: 160px;
+        height: 160px;
+        margin-left: 1270px;
+        margin-top: 320px;
+    }
+    
+    #colorPads div:nth-child(3) {
+        margin-left: 1020px;
+    }
+    
+    #colorPads div:nth-child(4) {
+        margin-left: 1370px;
+    }
+    
+    #colorPads div:nth-child(5) {
+        margin-left: 1460px;
+    }
+    
+    #colorPads div:nth-child(6) {
+        margin-left: 1040px;
+    }
+    
+    #colorPads div:nth-child(7) {
+        margin-left: 1220px;
+    }
+    
+    #colorPads div:nth-child(8) {
+        margin-left: 870px;
+    }
+    
+    #colorPads div:nth-child(9) {
+        margin-left: 1420px;
+    }
+    
+    #colorPads div:nth-child(10) {
+        margin-left: 1120px;
+    }
+
+    #bubbles div:nth-child(1) {
+        margin-left: 1120px;
+    }
+    
+    #bubbles div:nth-child(2) {
+        margin-left: 1040px;
+    }
+    
+    #bubbles div:nth-child(3) {
+        margin-left: 1320px;
+    }
+    
+    #bubbles div:nth-child(4) {
+        margin-left: 1160px;
+    }
+    
+    #bubbles div:nth-child(5) {
+        margin-left: 1400px;
+    }
+    
+    #bubbles div:nth-child(6) {
+        margin-left: 1240px;
+    }
+
+    #rectangles div:nth-child(1) {
+        z-index: -1;
+        margin-left: 900px;
+    }
+    
+    #rectangles div:nth-child(2) {
+        z-index: -1;
+        margin-left: 1000px;
+    }
+    
+    #rectangles div:nth-child(3) {
+        z-index: -1;
+        margin-left: 1200px;
+    }
+    
+    #rectangles div:nth-child(4) {
+        z-index: -1;
+        margin-left: 1180px;
+    }
+
+    #blobs div:nth-child(1) {
+        margin-left: 1200px;
+    }
+    
+    #blobs div:nth-child(2) {
+        margin-left: 1400px;
+    }
+    
+    #blobs div:nth-child(3) {
+        margin-left: 1100px;
+    }
+
+    #ticSquares div:nth-child(1) {
+        margin-left: 1100px;
+    }
+    
+    #ticSquares div:nth-child(2) {
+        margin-left: 800px;
+    }
+    
+    #ticSquares div:nth-child(3) {
+        margin-left: 1400px;
+    }
+    
+    #ticSquares div:nth-child(4) {
+        margin-left: 1280px;
+    }
+    
+    #ticSquares div:nth-child(5) {
+        margin-left: 1380px;
+    }
 }

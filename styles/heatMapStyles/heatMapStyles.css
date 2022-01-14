@@ -22,6 +22,7 @@ text {
 }
 
 svg {
+  z-index: 1;
   margin-top: 2450px;
   margin-left: 750px;
   background-color: #f1f1f1;
