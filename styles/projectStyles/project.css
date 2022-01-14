@@ -194,4 +194,13 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 1760px) {
+  #desc {
+    font-size: 7em;
+  }
+  .title {
+    font-size: 8em;
+  }
+}
 /*# sourceMappingURL=project.css.map */
