@@ -84,7 +84,7 @@
   width: 100%;
   pointer-events: none;
   margin-left: 660px;
-  top: 60px;
+  margin-top: -430px;
   -webkit-box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
           box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
 }
@@ -201,6 +201,25 @@
   }
   .title {
     font-size: 7em;
+  }
+  .view {
+    font-size: 5em;
+    padding: 10px;
+  }
+  #choroplethMap {
+    margin-top: -300px;
+  }
+  #choroplethMap {
+    margin-top: -260px;
+  }
+  #ticTac {
+    margin-top: 500px;
+  }
+  #quoteMachine, #drumMachine, #heatMap, #choroplethMapContainer {
+    margin-top: 300px;
+  }
+  #ticTac {
+    margin-top: 500px;
   }
 }
 /*# sourceMappingURL=project.css.map */

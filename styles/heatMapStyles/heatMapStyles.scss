@@ -28,7 +28,7 @@ text {
 
 svg {
     z-index: 1;
-    margin-top: 2450px;
+    margin-top: 2550px;
     margin-left: 750px;
     background-color: #f1f1f1;
     box-shadow: 40px 40px 100px rgba(10, 11, 26, 0.25);
@@ -72,6 +72,13 @@ svg {
 
 .cell:hover {
     fill: #f1f1f1;
+}
+
+@media (max-width: 1860px) {
+    svg {
+        margin-top: 2500px;
+    }
+
 }
 
 @media (max-width: 1350px) {
