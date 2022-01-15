@@ -482,6 +482,15 @@ h2 {
   font-family: 'Comforter', cursive;
 }
 
+@media (max-width: 1760px) {
+  #aboutMe, #bottom, #paraTop, #paraBottom {
+    width: 780px;
+  }
+  .container {
+    margin-left: 1000px;
+  }
+}
+
 @media (max-width: 1350px) {
   .right-arm {
     position: relative !important;
