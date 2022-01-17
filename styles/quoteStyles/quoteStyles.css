@@ -18,10 +18,6 @@
 }
 
 #author, #text {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   padding: 29.5px;
   font-family: "Raleway", sans-serif;
   font-size: 20.5px;
@@ -67,6 +63,10 @@
 }
 
 #new-quote {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 200px;
   position: absolute;
   font-family: "Raleway", sans-serif;
@@ -90,6 +90,10 @@
   border: #d3a8fe;
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
+}
+
+#new-quote:focus {
+  outline: none;
 }
 
 #tweet-quote:hover {

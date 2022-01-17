@@ -16,7 +16,6 @@ $font: 'Raleway', sans-serif;
 }
 
 #author, #text {
-    user-select: none;
     padding: 29.5px;
     font-family: $font;
     font-size: 20.5px;
@@ -50,6 +49,7 @@ $font: 'Raleway', sans-serif;
 }
 
 #new-quote {
+    user-select: none;
     width: 200px;
     position: absolute;
     font-family: $font;
@@ -69,6 +69,10 @@ $font: 'Raleway', sans-serif;
     box-shadow: 3px 3px 5px #ddbffc;
     border: #d3a8fe;
     transform: translateY(-7px);
+}
+
+#new-quote:focus {
+    outline: none;
 }
 
 #tweet-quote:hover {

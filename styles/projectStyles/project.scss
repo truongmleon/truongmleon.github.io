@@ -7,17 +7,21 @@ $font2: 'Josefin Sans', sans-serif;
 $white: #fafafa;
 $black: #000;
 
+
 #paraBottom {
+    transition: .8s;
     border-bottom: 3px solid;
     padding-bottom: 40px;
     font-family: $font;
 }
 
 #paraTop {
+    transition: .8s;
     font-family: $font;
 }
 
 #projectHeader {
+    transition: .8s;
     font-size: 12em;
     width: 970px;
     font-family: $font;
@@ -27,6 +31,7 @@ $black: #000;
 }
 
 .desc {
+    transition: .8s;
     font-family: $font;
     font-size: 8em;
     margin-top: 10px;
@@ -35,6 +40,7 @@ $black: #000;
 }
 
 .title {
+    transition: .8s;
     width: 570px;
     font-size: 9.5em;
     margin-top: 40px;
@@ -46,6 +52,7 @@ $black: #000;
 }
 
 .view {
+    transition: .8s;
     user-select: none;
     font-family: $font;
     width: 300px;
@@ -69,16 +76,19 @@ $black: #000;
 
 #calcContainer {
     margin-top: 50px;
+    transition: .8s;
 }
 
 #quoteMachine, #drumMachine, #heatMap, #choroplethMapContainer, #ticTac {
     margin-top: 200px;
+    transition: .8s;
 }
 
 #choroplethMap {
+    transition: .8s;
     user-select: none;
     position: absolute;
-    width: 100%;
+    width: 70%;
     pointer-events: none;
     margin-left: 660px;
     margin-top: -430px;

@@ -4,6 +4,10 @@ $font: 'Poppins', sans-serif;
 $white: #f1f1f1;
 $black: #000;
 
+#bubbles div, #colorPads div, #rectangles div, #blobs div, #ticSquares div, #layers div {
+    box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
+}
+
 #containerVisual {
     position: absolute;
     width: 360px;
@@ -13,9 +17,11 @@ $black: #000;
     margin-left: 820px;
     background: linear-gradient(#a64ffc, #626ffe);
     box-shadow: 15px 20px 30px 20px rgba(0, 0, 0, 0.1);
+    transition: .8s;
 }
 
 #boxOne {
+    transition: .8s;
     z-index: 2;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -27,6 +33,7 @@ $black: #000;
 }
 
 #boxTwo {
+    transition: .8s;
     z-index: 1;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -38,6 +45,7 @@ $black: #000;
 }
 
 #circleOne {
+    transition: .8s;
     z-index: 1;
     box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -58,6 +66,7 @@ $black: #000;
 }
 
 #rectangleOne {
+    transition: .8s;
     z-index: 0;
     box-shadow: 20px 20px 60px 5px rgba(0, 0, 0, 0.1), -10px -10px 100px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -80,11 +89,8 @@ $black: #000;
     background: linear-gradient(#6792f0, #9ea5f8);
 }
 
-body {
-    background-color: #fafafa;
-}
-
 .welcome {
+    transition: .8s;
     font-family: $font;
     color: $black;
     text-shadow: 7px 7px #d9d8da;
@@ -92,6 +98,7 @@ body {
 }
 
 #toMy {
+    transition: .8s;
     margin-left: 200px;
 }
 
@@ -121,8 +128,8 @@ div a span {
     color: $black;
     position: absolute;
     font-size: 22em;
-    width: 180px;
-    height: 200px;
+    width: 160px;
+    height: 180px;
     background: #e5ceff;
     display: flex;
     justify-content: center;
@@ -378,6 +385,15 @@ div a span:nth-child(1) {
     background: linear-gradient(45deg, #befdf8da, #d0ffbbe7);
 }
 
+#rectangles div:nth-child(5) {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    margin-top: 750px;
+    margin-left: 460px;
+    background: linear-gradient(45deg, #bedffd, #bbfffc);
+}
+
 #layers div {
     position: absolute;
     transition: .8s;
@@ -419,7 +435,7 @@ div a span:nth-child(1) {
 #blobs div:nth-child(1) {
     width: 300px;
     height: 300px;
-    margin-top: 590px;
+    margin-top: 490px;
     margin-left: 1360px;
     border-radius: 34% 66% 70% 30% / 30% 50% 50% 70%;
     background: linear-gradient(45deg, #bee9fd, #bbbfff);
@@ -441,6 +457,15 @@ div a span:nth-child(1) {
     margin-left: 1260px;
     border-radius: 54% 46% 69% 31% / 17% 79% 21% 83%;
     background: linear-gradient(45deg, #befdc0, #b0d2ff);
+}
+
+#blobs div:nth-child(4) {
+    width: 230px;
+    height: 230px;
+    margin-top: 600px;
+    margin-left: 1060px;
+    border-radius: 78% 22% 70% 30% / 69% 71% 29% 31%;
+    background: linear-gradient(45deg, #ffb0fb, #f8befd);
 }
 
 #ticSquares div {
@@ -625,6 +650,10 @@ div a span:nth-child(1) {
         margin-left: 1260px;
     }
 
+    #rectangles div:nth-child(5) {
+        margin-left: 400px;
+    }
+
     #blobs div:nth-child(1) {
         margin-left: 1280px;
     }
@@ -772,7 +801,7 @@ div a span:nth-child(1) {
     
     #bubbles div:nth-child(6) {
         margin-left: 1240px;
-        margin-top: 620px;
+        margin-top: 680px;
     }
 
     #rectangles div:nth-child(1) {
@@ -799,19 +828,29 @@ div a span:nth-child(1) {
         margin-top: 680px;
     }
 
+    #rectangles div:nth-child(5) {
+        z-index: -1;
+        margin-top: 800px;
+        margin-left: 660px;
+    }
+
     #blobs div:nth-child(1) {
-        margin-left: 1300px;
+        margin-left: 1200px;
         margin-top: 700px;
     }
     
     #blobs div:nth-child(2) {
-        margin-left: 1400px;
+        margin-left: 1300px;
         margin-top: 400px;
     }
     
     #blobs div:nth-child(3) {
-        margin-left: 1100px;
+        margin-left: 1000px;
         margin-top: 300px;
+    }
+
+    #blobs div:nth-child(4) {
+        margin-left: 860px;
     }
 
     #ticSquares div:nth-child(1) {
@@ -875,5 +914,26 @@ div a span:nth-child(1) {
 
     #containerVisual {
         margin-left: 720px;
+    }
+
+    #GitHubIcon, #TwitterIcon, #CodePenIcon {
+        margin-left: 1170px;
+        margin-top: 270px;
+    }
+
+    #TwitterIcon {
+        margin-left: 1300px;
+        margin-top: 350px
+    }
+    
+    #CodePenIcon {
+        margin-top: 430px;
+        margin-left: 1430px
+    }
+
+    div a span {
+        font-size: 16em;
+        width: 130px;
+        height: 130px;
     }
 }

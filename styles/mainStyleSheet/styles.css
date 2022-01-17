@@ -10,6 +10,8 @@ body {
 }
 
 #main {
+  -webkit-transition: .8s;
+  transition: .8s;
   margin-left: 1040px;
   width: 160em;
   height: 18em;

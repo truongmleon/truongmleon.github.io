@@ -43,8 +43,13 @@ html {
           justify-content: space-evenly;
 }
 
+html {
+  background-color: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5)) !important;
+  background: linear-gradient(#e66465, #9198e5) !important;
+}
+
 body {
-  background: linear-gradient(60deg, #f3fd93, #abfea8, #fcb79c, #fc6666, #fc7474, #ffbdf6, #c38afd, #9ea5f8, #9ff6f8);
   background-repeat: no-repeat;
   overflow-y: auto;
   overflow-x: hidden;
@@ -251,6 +256,8 @@ h2 {
 }
 
 .container {
+  -webkit-transition: 1s;
+  transition: 1s;
   font-size: 5px;
   margin-left: 1100px;
   width: 600px;
