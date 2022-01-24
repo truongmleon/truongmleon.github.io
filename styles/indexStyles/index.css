@@ -481,6 +481,10 @@ h2 {
 }
 
 #kirbyText {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   z-index: 5;
   margin-top: -60px;

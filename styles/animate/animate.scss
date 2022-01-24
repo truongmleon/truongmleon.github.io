@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
-$font: 'Poppins', sans-serif;
+$font: 'Outfit', sans-serif;;
 $white: #f1f1f1;
 $black: #000;
 
@@ -90,6 +91,7 @@ $black: #000;
 }
 
 .welcome {
+    user-select: none;
     transition: .8s;
     font-family: $font;
     color: $black;
@@ -98,6 +100,7 @@ $black: #000;
 }
 
 #toMy {
+    user-select: none;
     transition: .8s;
     margin-left: 200px;
 }
@@ -888,6 +891,14 @@ div a span:nth-child(1) {
     
     #layers div:nth-child(3) {
         margin-top: 350px;
+    }
+
+    #boxOne {
+        margin-top: 480px;
+    }
+
+    #boxTwo {
+        margin-left: 1450px;
     }
 }
 

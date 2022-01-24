@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 #bubbles div, #colorPads div, #rectangles div, #blobs div, #ticSquares div, #layers div {
   -webkit-box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
           box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
@@ -100,15 +101,23 @@
 }
 
 .welcome {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-transition: .8s;
   transition: .8s;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #000;
   text-shadow: 7px 7px #d9d8da;
   font-size: 38rem !important;
 }
 
 #toMy {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-transition: .8s;
   transition: .8s;
   margin-left: 200px;
@@ -875,6 +884,12 @@ div a span:nth-child(1) {
   }
   #layers div:nth-child(3) {
     margin-top: 350px;
+  }
+  #boxOne {
+    margin-top: 480px;
+  }
+  #boxTwo {
+    margin-left: 1450px;
   }
 }
 

@@ -364,6 +364,7 @@ h2 {
   }
 
 #kirbyText {
+    user-select: none;
     position: absolute;
     z-index: 5;
     margin-top: -60px;
