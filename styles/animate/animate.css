@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap");
 #bubbles div, #colorPads div, #rectangles div, #blobs div, #ticSquares div, #layers div {
   -webkit-box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
           box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
