@@ -99,7 +99,7 @@
       -ms-user-select: none;
           user-select: none;
   position: absolute;
-  width: 2420%;
+  width: 70%;
   pointer-events: none;
   margin-left: 660px;
   margin-top: -430px;
@@ -225,9 +225,6 @@
     padding: 10px;
   }
   #choroplethMap {
-    margin-top: -300px;
-  }
-  #choroplethMap {
     margin-top: -260px;
   }
   #ticTac {
@@ -236,8 +233,20 @@
   #quoteMachine, #drumMachine, #heatMap, #choroplethMapContainer {
     margin-top: 300px;
   }
-  #ticTac {
-    margin-top: 500px;
+}
+
+@media (max-width: 1700px) {
+  .desc {
+    font-size: 5.5em;
+    width: 450px;
+  }
+  .title {
+    font-size: 6.5em;
+    width: 450px;
+  }
+  .view {
+    font-size: 6em;
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=project.css.map */

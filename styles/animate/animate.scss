@@ -6,7 +6,7 @@ $white: #f1f1f1;
 $black: #000;
 
 #bubbles div, #colorPads div, #rectangles div, #blobs div, #ticSquares div, #layers div {
-    box-shadow: inset 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
+    box-shadow: inset 5px 5px 20px 10px rgba(70, 70, 70, 0.1);
 }
 
 #containerVisual {
@@ -928,23 +928,382 @@ div a span:nth-child(1) {
     }
 
     #GitHubIcon, #TwitterIcon, #CodePenIcon {
-        margin-left: 1170px;
+        margin-left: 1160px;
         margin-top: 270px;
     }
 
     #TwitterIcon {
-        margin-left: 1300px;
-        margin-top: 350px
+        margin-left: 1270px;
+        margin-top: 334px
     }
     
     #CodePenIcon {
-        margin-top: 430px;
-        margin-left: 1430px
+        margin-top: 400px;
+        margin-left: 1380px
     }
 
     div a span {
-        font-size: 16em;
-        width: 130px;
-        height: 130px;
+        font-size: 14em;
+        width: 110px;
+        height: 110px;
+    }
+
+    div a span:nth-child(5) {
+        transform: translate(-100px, -80px);
+    }
+    
+    div a span:nth-child(4) {
+        transform: translate(-70px, -50px);
+    }
+    
+    div a span:nth-child(3) {
+        transform: translate(-40px, -20px);
+    }
+    
+    div a span:nth-child(2) {
+        transform: translate(-10px, 10px);
+    }
+
+    div a span:nth-child(1) {
+        transform: translate(20px, 40px);
+    }
+
+    #boxTwo {
+        margin-left: 1350px;
+    }
+
+    #colorPads div:nth-child(1) {
+        margin-left: 940px;
+    }
+    
+    #colorPads div:nth-child(2) {
+        margin-left: 1150px;
+    }
+    
+    #colorPads div:nth-child(3) {
+        margin-left: 1050px;
+    }
+    
+    #colorPads div:nth-child(4) {
+        margin-left: 1250px;
+    }
+    
+    #colorPads div:nth-child(5) {
+        margin-left: 1320px;
+    }
+    
+    #colorPads div:nth-child(6) {
+        margin-left: 960px;
+    }
+    
+    #colorPads div:nth-child(7) {
+        margin-left: 1140px;
+    }
+    
+    #colorPads div:nth-child(8) {
+        margin-left: 760px;
+    }
+    
+    #colorPads div:nth-child(9) {
+        margin-left: 1300px;
+    }
+    
+    #colorPads div:nth-child(10) {
+        margin-left: 800px;
+    }
+
+    #bubbles div:nth-child(1) {
+        margin-left: 1040px;
+    }
+    
+    #bubbles div:nth-child(2) {
+        margin-left: 960px;
+    }
+    
+    #bubbles div:nth-child(3) {
+        margin-left: 1240px;
+    }
+    
+    #bubbles div:nth-child(4) {
+        margin-left: 1080px;
+    }
+    
+    #bubbles div:nth-child(5) {
+        margin-left: 1320px;
+    }
+    
+    #bubbles div:nth-child(6) {
+        margin-left: 1160px;
+    }
+
+    #rectangles div:nth-child(1) {
+        margin-left: 820px;
+    }
+    
+    #rectangles div:nth-child(2) {
+        margin-left: 920px;
+    }
+    
+    #rectangles div:nth-child(3) {
+        margin-left: 1120px;
+    }
+    
+    #rectangles div:nth-child(4) {
+        margin-left: 1100px;
+    }
+
+    #rectangles div:nth-child(5) {
+        margin-left: 580px;
+    }
+
+    #blobs div:nth-child(1) {
+        margin-left: 1120px;
+    }
+    
+    #blobs div:nth-child(2) {
+        margin-left: 1220px;
+    }
+    
+    #blobs div:nth-child(3) {
+        margin-left: 920px;
+    }
+
+    #blobs div:nth-child(4) {
+        margin-left: 780px;
+    }
+
+    #ticSquares div:nth-child(1) {
+        margin-left: 1020px;
+    }
+    
+    #ticSquares div:nth-child(2) {
+        margin-left: 720px;
+    }
+    
+    #ticSquares div:nth-child(3) {
+        margin-left: 1320px;
+    }
+    
+    #ticSquares div:nth-child(4) {
+        margin-left: 1200px;
+    }
+    
+    #ticSquares div:nth-child(5) {
+        margin-left: 1300px;
+    }
+
+    #layers div:nth-child(1) {
+        margin-top: 270px;
+    }
+    
+    #layers div:nth-child(2) {
+        margin-top: 550px;
+    }
+    
+    #layers div:nth-child(3) {
+        margin-top: 270px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .welcome {
+        font-size: 34rem !important;
+    }
+
+    #rectangleOne {
+        margin-left: 1000px;
+    }
+
+    #boxOne {
+        margin-left: 1280px;
+    }
+
+    #boxTwo {
+        margin-left: 1400px;
+    }
+
+    #circleOne {
+        margin-left: 1300px;
+    }
+
+    #containerVisual {
+        margin-left: 720px;
+    }
+
+    #GitHubIcon, #TwitterIcon, #CodePenIcon {
+        margin-left: 1160px;
+        margin-top: 270px;
+    }
+
+    #TwitterIcon {
+        margin-left: 1270px;
+        margin-top: 334px
+    }
+    
+    #CodePenIcon {
+        margin-top: 400px;
+        margin-left: 1380px
+    }
+
+    div a span {
+        font-size: 14em;
+        width: 110px;
+        height: 110px;
+    }
+
+    div a span:nth-child(5) {
+        transform: translate(-100px, -80px);
+    }
+    
+    div a span:nth-child(4) {
+        transform: translate(-70px, -50px);
+    }
+    
+    div a span:nth-child(3) {
+        transform: translate(-40px, -20px);
+    }
+    
+    div a span:nth-child(2) {
+        transform: translate(-10px, 10px);
+    }
+
+    div a span:nth-child(1) {
+        transform: translate(20px, 40px);
+    }
+
+    #boxTwo {
+        margin-left: 1350px;
+    }
+
+    #colorPads div:nth-child(1) {
+        margin-left: 940px;
+    }
+    
+    #colorPads div:nth-child(2) {
+        margin-left: 1150px;
+    }
+    
+    #colorPads div:nth-child(3) {
+        margin-left: 1050px;
+    }
+    
+    #colorPads div:nth-child(4) {
+        margin-left: 1250px;
+    }
+    
+    #colorPads div:nth-child(5) {
+        margin-left: 1320px;
+    }
+    
+    #colorPads div:nth-child(6) {
+        margin-left: 960px;
+    }
+    
+    #colorPads div:nth-child(7) {
+        margin-left: 1140px;
+    }
+    
+    #colorPads div:nth-child(8) {
+        margin-left: 760px;
+    }
+    
+    #colorPads div:nth-child(9) {
+        margin-left: 1300px;
+    }
+    
+    #colorPads div:nth-child(10) {
+        margin-left: 800px;
+    }
+
+    #bubbles div:nth-child(1) {
+        margin-left: 1040px;
+    }
+    
+    #bubbles div:nth-child(2) {
+        margin-left: 960px;
+    }
+    
+    #bubbles div:nth-child(3) {
+        margin-left: 1240px;
+    }
+    
+    #bubbles div:nth-child(4) {
+        margin-left: 1080px;
+    }
+    
+    #bubbles div:nth-child(5) {
+        margin-left: 1320px;
+    }
+    
+    #bubbles div:nth-child(6) {
+        margin-left: 1160px;
+    }
+
+    #rectangles div:nth-child(1) {
+        margin-left: 820px;
+    }
+    
+    #rectangles div:nth-child(2) {
+        margin-left: 920px;
+    }
+    
+    #rectangles div:nth-child(3) {
+        margin-left: 1120px;
+    }
+    
+    #rectangles div:nth-child(4) {
+        margin-left: 1100px;
+    }
+
+    #rectangles div:nth-child(5) {
+        margin-left: 580px;
+    }
+
+    #blobs div:nth-child(1) {
+        margin-left: 1120px;
+    }
+    
+    #blobs div:nth-child(2) {
+        margin-left: 1220px;
+    }
+    
+    #blobs div:nth-child(3) {
+        margin-left: 920px;
+    }
+
+    #blobs div:nth-child(4) {
+        margin-left: 780px;
+    }
+
+    #ticSquares div:nth-child(1) {
+        margin-left: 1020px;
+    }
+    
+    #ticSquares div:nth-child(2) {
+        margin-left: 720px;
+    }
+    
+    #ticSquares div:nth-child(3) {
+        margin-left: 1320px;
+    }
+    
+    #ticSquares div:nth-child(4) {
+        margin-left: 1200px;
+    }
+    
+    #ticSquares div:nth-child(5) {
+        margin-left: 1300px;
+    }
+
+    #layers div:nth-child(1) {
+        margin-top: 270px;
+    }
+    
+    #layers div:nth-child(2) {
+        margin-top: 550px;
+    }
+    
+    #layers div:nth-child(3) {
+        margin-top: 270px;
     }
 }
